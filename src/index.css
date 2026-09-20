@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+/* Tailwind v4 mein Dark Mode manual class toggle ke liye */
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+  @apply bg-gray-50 text-gray-900 transition-colors duration-200;
+
+  background-color: #0a0a0a;
+
+}
